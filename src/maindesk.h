@@ -13,6 +13,7 @@
 #include "camera/camerawindow.h"
 #include "musicplayer/musicplayer.h"
 #include "gallery/gallery.h"
+#include "videoplayer/videoplayer.h"
 
 #include <QWidget>
 #include <QThread>

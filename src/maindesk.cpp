@@ -178,6 +178,8 @@ void MainDesk::on_musicButton_clicked()
 void MainDesk::on_videoButton_clicked()
 {
     qDebug()<<"on_videoButton_clicked";
+    VideoPlayer::Instance()->show();
+    this->setHidden(true);
 }
 /*!
  * @function:on_carLifeButton_clicked
